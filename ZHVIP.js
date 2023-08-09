@@ -28,8 +28,8 @@ hostname = 116.136.170*,116.136.170*,*zhihu*
 ^http[s]?:\/\/api\.zhihu\.com\/commercial_api\/real_time_launch_v2 url reject-dict
 /^http[s]?:\/\/(api|www)\.zhihu\.com\/(people\/self|unlimited\/go\/my_card|sku\/reversion_sku_ext|bazaar\/vip_tab\/header|api\/v3\/books).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/ZHVIP.js
 /^http[s]?:\/\/.*zhihu\.(com|cn)\/(appview\/v2\/answer|remix-web\/paid_columns.*manuscript|market\/paid_column|appview\/p|api\/v3\/books.*\/download|market\/paid_magazine).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/ZHTK.js
-^http[s]?:\/\/(api|www)\.zhihu\.com\/(people\/self|unlimited\/go\/my_card|sku\/reversion_sku_ext|bazaar\/vip_tab\/header|api\/v3\/books).*$ url script-response-body https://raw.githubusercontent.com/riboly/Quantumult-X/main/%E7%9F%A5%E4%B9%8Evip/ZHTK.js
-^http[s]?:\/\/.*zhihu\.(com|cn)\/(appview\/v2\/answer|remix-web\/paid_columns.*manuscript|market\/paid_column|appview\/p|api\/v3\/books.*\/download|market\/paid_magazine).*$ url script-request-header https://raw.githubusercontent.com/riboly/Quantumult-X/main/%E7%9F%A5%E4%B9%8Evip/ZHTK.js
+^http[s]?:\/\/(api|www)\.zhihu\.com\/(people\/self|unlimited\/go\/my_card|sku\/reversion_sku_ext|bazaar\/vip_tab\/header|api\/v3\/books).*$ url script-response-body https://raw.githubusercontent.com/riboly/Quantumult-X/main/ZHTK.js
+^http[s]?:\/\/.*zhihu\.(com|cn)\/(appview\/v2\/answer|remix-web\/paid_columns.*manuscript|market\/paid_column|appview\/p|api\/v3\/books.*\/download|market\/paid_magazine).*$ url script-request-header https://raw.githubusercontent.com/riboly/Quantumult-X/main/ZHTK.js
 ^http[s]?:\/\/.*\/v2\/resolv\?host\=api\.zhihu\.com url reject
 ***************************************/
 
